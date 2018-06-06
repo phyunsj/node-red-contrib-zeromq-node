@@ -138,7 +138,7 @@ module.exports = function(RED) {
 RED.nodes.registerType("MQ SUB", MQSUB);
 ```
 
-### MQ in Aaction
+### `MQ SUB` in Action
 
 ![alt text-1](https://github.com/phyunsj/node-red-custom-node/blob/master/node-red-mq-config.gif "Node-RED-Dashboard MQ")
 
