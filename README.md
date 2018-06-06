@@ -14,15 +14,41 @@ Node-RED is a programming tool for wiring together hardware devices, APIs and on
 
 ZeroMQ (also known as ØMQ, 0MQ, or zmq) looks like an embeddable networking library but acts like a concurrency framework. It gives you sockets that carry atomic messages across various transports like in-process, inter-process, TCP, and multicast. You can connect sockets N-to-N with patterns like fan-out, pub-sub, task distribution, and request-reply. It's fast enough to be the fabric for clustered products. Its asynchronous I/O model gives you scalable multicore applications, built as asynchronous message-processing tasks. It has a score of language APIs and runs on most operating systems. ZeroMQ is from iMatix and is LGPLv3 open source. _from http://zeromq.org/_
 
-
-### Supported ØMQ Node Types (https://github.com/zeromq/zeromq.js)
+### Installation
 
 > npm install zeromq
+
+### Supported ØMQ Node Types 
+
+The following socket types are supported by ØMQ npm package (https://github.com/zeromq/zeromq.js/) 
+
+```
+var types = exports.types = {
+    pub: zmq.ZMQ_PUB
+  , xpub: zmq.ZMQ_XPUB
+  , sub: zmq.ZMQ_SUB
+  , xsub: zmq.ZMQ_XSUB
+  , req: zmq.ZMQ_REQ
+  , xreq: zmq.ZMQ_XREQ
+  , rep: zmq.ZMQ_REP
+  , xrep: zmq.ZMQ_XREP
+  , push: zmq.ZMQ_PUSH
+  , pull: zmq.ZMQ_PULL
+  , dealer: zmq.ZMQ_DEALER
+  , router: zmq.ZMQ_ROUTER
+  , pair: zmq.ZMQ_PAIR
+  , stream: zmq.ZMQ_STREAM
+};
+```
+
+ZMQ_PUB & ZMQ_SUB are implemented as Node-RED Custom Node.
+
+
+![alt text-1](https://github.com/phyunsj/node-red-custom-node/blob/master/node-red-zeromq.png "Node-RED ZeroMQ Node")
 
 
 **MQ PUB & MQ SUB** : **Publish/Subscribe** Pattern for distributing data from a single process (e.g. publisher) to multiple recipients (e.g. subscribers) 
 
-![alt text-1](https://github.com/phyunsj/node-red-custom-node/blob/master/node-red-zeromq.png "Node-RED ZeroMQ Node")
 
 
 ### Link Node-RED custom node locally for development
