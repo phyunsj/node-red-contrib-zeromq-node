@@ -61,15 +61,85 @@ On Windows, using npm 5.x or greater:
 
 ### node-red-node-mq/package.json
 
-TBD
+```
+{
+  "node-red": {
+    "nodes": {
+      "mq": "mq.js"
+    }
+  },
+  ...
+  "dependencies": {
+    "zeromq": "^4.6.0"
+  }
+}
+```
 
 ### node-red-node-mq/mq.html
 
-TBD
+node-input-`<property-name>`
+
+```
+<!--  ØMQ SUB Node  -->
+<script type="text/x-red" data-template-name="MQ SUB">
+    <div class="form-row">
+        <label for="node-input-topic"><i class="fa fa-tag"> </i>  Topic </label>
+        <input type="text" id="node-input-topic" placeholder="" style="width:35%">
+    </div>
+    <div class="form-row">
+        <label for="node-input-mqtype"><i class="fa fa-random"></i> MQ Type</label>
+        <select id="node-input-mqtype" style="width:100px">
+          ...
+        </select>
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="MQ SUB">
+    
+    ... help section ...
+    
+</script>
+
+<script type="text/javascript">
+    RED.nodes.registerType('MQ SUB',{
+        category: 'ØMQ', // Under ØMQ Bar,
+        color:"Silver",
+        defaults: {
+            name: {value:""},
+            topic: {value :"NY",required:true},  // -> node-input-topic
+            
+            ... 
+            mqtype : {value:"tcp"}  // -> node-input-mqtype
+
+        },
+       ... 
+    });
+</script>
+```
 
 ### node-red-node-mq/mq.js
 
-TBD
+```
+module.exports = function(RED) {
+    "use strict";
+    var os = require('os');
+    var zmq = require('zeromq');
+
+    // MQ SUB Node
+    function MQSUB(n) {
+        RED.nodes.createNode(this,n);
+        ...
+        this.topic = n.topic || 'NY'; // <- input-node-topic
+        ...
+        this.mqtype = n.mqtype || 'tcp'; <- input-node-mqtype
+        
+     ...
+}
+RED.nodes.registerType("MQ SUB", MQSUB);
+```
+
+### MQ in Aaction
+
 ![alt text-1](https://github.com/phyunsj/node-red-custom-node/blob/master/node-red-mq-config.gif "Node-RED-Dashboard MQ")
 
 
