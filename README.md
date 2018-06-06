@@ -24,6 +24,11 @@ On Windows, using npm 5.x or greater:
 > cd  C:\Users\my_name\.node_red
 > npm install C:\Users\my_name\my_project\node-red-zeromq
 
+## Node-RED-Dashboard Flow
+
+![alt text-1](https://github.com/phyunsj/node-red-custom-node/blob/master/node-red-zeromq-dashboard.png "Node-RED-Dashboard ZeroMQ")
+
+
 ## Additional Info
 
 - Node-RED How To: Custom Node Creation https://www.youtube.com/watch?v=TlzqGhfdbEM
