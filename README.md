@@ -33,3 +33,4 @@ On Windows, using npm 5.x or greater:
 
 - Node-RED How To: Custom Node Creation https://www.youtube.com/watch?v=TlzqGhfdbEM
 - Writing custom add-ons for Node-RED https://opensourceforu.com/2017/07/writing-custom-add-ons-node-red/
+- Node-RED Nodes https://github.com/node-red/node-red-nodes
