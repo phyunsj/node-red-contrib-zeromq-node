@@ -15,3 +15,16 @@ Node-RED is a programming tool for wiring together hardware devices, APIs and on
 MQ PUB & MQ SUB : Publish/Subscribe Pattern for distributing data from a single process (e.g. publisher) to multiple recipients (e.g. subscribers) 
 
 ![alt text-1](https://github.com/phyunsj/node-red-custom-node/blob/master/node-red-zeromq.png "Node-RED ZeroMQ Node")
+
+
+**Link Node-RED custome node locally for development**
+
+On Windows, using npm 5.x or greater:
+
+> cd  C:\Users\my_name\.node_red
+> npm install C:\Users\my_name\my_project\node-red-zeromq
+
+## Additional Info
+
+- Node-RED How To: Custom Node Creation https://www.youtube.com/watch?v=TlzqGhfdbEM
+- Writing custom add-ons for Node-RED https://opensourceforu.com/2017/07/writing-custom-add-ons-node-red/
