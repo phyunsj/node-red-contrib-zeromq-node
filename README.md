@@ -73,7 +73,7 @@ TBD
 
 ## Node-RED-Dashboard 
 
-2 X **MQ SUB** nodes subscribed **NY** & **NJ** and extracted `temperature` & `humidity` to display data on `Chart` & `Gauge`.
+2 X **MQ SUB** nodes subscribed to recevie **NY** & **NJ** (topic) and extracted `temperature` & `humidity` to display data on `Chart` & `Gauge`.
 
 ![alt text-1](https://github.com/phyunsj/node-red-custom-node/blob/master/node-red-zeromq-dashboard.png "Node-RED-Dashboard ZeroMQ")
 
