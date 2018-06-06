@@ -1,4 +1,4 @@
-# Create Custome Node for Node-RED
+# Create Custom Node for Node-RED
 
 Demonstrating how to write custom nodes out of **npm** package (ØMQ) for **Node-RED** (Related Link :  https://nodered.org/docs/creating-nodes/)
 
@@ -25,13 +25,25 @@ ZeroMQ (also known as ØMQ, 0MQ, or zmq) looks like an embeddable networking lib
 ![alt text-1](https://github.com/phyunsj/node-red-custom-node/blob/master/node-red-zeromq.png "Node-RED ZeroMQ Node")
 
 
-#### Link Node-RED custome node locally for development
+#### Link Node-RED custom node locally for development
 
 On Windows, using npm 5.x or greater:
 
 > `cd  C:\Users\my_name\.node_red`
 
 > `C:\Users\my_name\.node_red\npm install C:\Users\my_name\my_project\node-red-zeromq`
+
+#### package.json
+
+TBD
+
+#### mq.html
+
+TBD
+
+#### mq.js
+
+TBD
 
 ## Node-RED-Dashboard 
 
