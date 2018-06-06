@@ -163,3 +163,4 @@ RED.nodes.registerType("MQ SUB", MQSUB);
 - Node-RED Nodes https://github.com/node-red/node-red-nodes
 - Stuck while making a Node-RED custom node? https://github.com/node-red/node-red-nodes
 - Node-RED Automation http://bitluni.net/how-to-node-red/
+- Node RED Programming Guide http://noderedguide.com/
