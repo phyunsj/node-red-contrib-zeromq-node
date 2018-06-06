@@ -59,17 +59,19 @@ On Windows, using npm 5.x or greater:
 
 > `C:\Users\my_name\.node_red\npm install C:\Users\my_name\my_project\node-red-zeromq`
 
-### package.json
+### node-red-node-mq/package.json
 
 TBD
 
-### mq.html
+### node-red-node-mq/mq.html
 
 TBD
 
-### mq.js
+### node-red-node-mq/mq.js
 
 TBD
+![alt text-1](https://github.com/phyunsj/node-red-custom-node/blob/master/node-red-mq-config.gif "Node-RED-Dashboard MQ")
+
 
 ## Node-RED-Dashboard 
 
