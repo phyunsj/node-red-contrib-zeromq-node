@@ -12,12 +12,12 @@ Node-RED is a programming tool for wiring together hardware devices, APIs and on
 
 #### Supported ØMQ Node Types
 
-MQ PUB & MQ SUB : Publish/Subscribe Pattern for distributing data from a single process (e.g. publisher) to multiple recipients (e.g. subscribers) 
+**MQ PUB & MQ SUB** : **Publish/Subscribe** Pattern for distributing data from a single process (e.g. publisher) to multiple recipients (e.g. subscribers) 
 
 ![alt text-1](https://github.com/phyunsj/node-red-custom-node/blob/master/node-red-zeromq.png "Node-RED ZeroMQ Node")
 
 
-**Link Node-RED custome node locally for development**
+#### Link Node-RED custome node locally for development
 
 On Windows, using npm 5.x or greater:
 
