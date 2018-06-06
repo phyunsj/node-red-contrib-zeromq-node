@@ -1,12 +1,12 @@
 # Create Custome Node for Node-RED
 
-Demonstrating how to write custom nodes out of **npm** package for **Node-RED** (Related Link :  https://nodered.org/docs/creating-nodes/)
+Demonstrating how to write custom nodes out of **npm** package (ØMQ) for **Node-RED** (Related Link :  https://nodered.org/docs/creating-nodes/)
 
 ## Node-RED 
 
 Node-RED is a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways. It provides a browser-based editor that makes it easy to wire together flows using the wide range of nodes in the palette that can be deployed to its runtime in a single-click. _from https://nodered.org/_
 
-## Example : ZeroMQ (ØMQ) Node + Node-RED-Dashboard
+## ZeroMQ (ØMQ) Node + Node-RED-Dashboard
 
 ![alt text-1](https://github.com/phyunsj/node-red-custom-node/blob/master/node-red-dashboard-weather.gif "Node-RED-Dashboard Weather")
 
