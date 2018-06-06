@@ -27,6 +27,8 @@ On Windows, using npm 5.x or greater:
 
 ## Node-RED-Dashboard Flow
 
+2 X **MQ SUB** nodes subscribed **NY** & **NJ** and extracted `temperature` & `humidity` to display data on `Chart` & `Gauge`.
+
 ![alt text-1](https://github.com/phyunsj/node-red-custom-node/blob/master/node-red-zeromq-dashboard.png "Node-RED-Dashboard ZeroMQ")
 
 
