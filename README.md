@@ -21,9 +21,9 @@ MQ PUB & MQ SUB : Publish/Subscribe Pattern for distributing data from a single 
 
 On Windows, using npm 5.x or greater:
 
-> cd  C:\Users\my_name\.node_red
+> `cd  C:\Users\my_name\.node_red`
 
-> C:\Users\my_name\.node_red\npm install C:\Users\my_name\my_project\node-red-zeromq
+> `C:\Users\my_name\.node_red\npm install C:\Users\my_name\my_project\node-red-zeromq`
 
 ## Node-RED-Dashboard Flow
 
