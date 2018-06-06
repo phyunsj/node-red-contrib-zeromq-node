@@ -6,7 +6,7 @@ Demonstrating how to write custom nodes for **Node-RED** (Related Link :  https:
 
 Node-RED is a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways. It provides a browser-based editor that makes it easy to wire together flows using the wide range of nodes in the palette that can be deployed to its runtime in a single-click. _from https://nodered.org/_
 
-## Example : ZeroMQ (ØMQ) Node + Node-RED-Dashbaord
+## Example : ZeroMQ (ØMQ) Node + Node-RED-Dashboard
 
 ![alt text-1](https://github.com/phyunsj/node-red-custom-node/blob/master/node-red-dashboard-weather.gif "Node-RED-Dashboard Weather")
 
