@@ -10,7 +10,15 @@ Node-RED is a programming tool for wiring together hardware devices, APIs and on
 
 ![alt text-1](https://github.com/phyunsj/node-red-custom-node/blob/master/node-red-dashboard-weather.gif "Node-RED-Dashboard Weather")
 
+#### ØMQ
+
+http://zeromq.org/ 
+ZeroMQ (also known as ØMQ, 0MQ, or zmq) looks like an embeddable networking library but acts like a concurrency framework. It gives you sockets that carry atomic messages across various transports like in-process, inter-process, TCP, and multicast. You can connect sockets N-to-N with patterns like fan-out, pub-sub, task distribution, and request-reply. It's fast enough to be the fabric for clustered products. Its asynchronous I/O model gives you scalable multicore applications, built as asynchronous message-processing tasks. It has a score of language APIs and runs on most operating systems. ZeroMQ is from iMatix and is LGPLv3 open source.
+
+
 #### Supported ØMQ Node Types
+
+https://github.com/zeromq/zeromq.js/
 
 **MQ PUB & MQ SUB** : **Publish/Subscribe** Pattern for distributing data from a single process (e.g. publisher) to multiple recipients (e.g. subscribers) 
 
