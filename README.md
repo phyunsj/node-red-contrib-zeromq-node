@@ -1,6 +1,6 @@
 # Create Custome Node for Node-RED
 
-Demonstrating how to write custom nodes for **Node-RED** (Related Link :  https://nodered.org/docs/creating-nodes/)
+Demonstrating how to write custom nodes out of **npm** package for **Node-RED** (Related Link :  https://nodered.org/docs/creating-nodes/)
 
 ## Node-RED 
 
