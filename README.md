@@ -36,3 +36,4 @@ On Windows, using npm 5.x or greater:
 - Writing custom add-ons for Node-RED https://opensourceforu.com/2017/07/writing-custom-add-ons-node-red/
 - Node-RED Nodes https://github.com/node-red/node-red-nodes
 - Stuck while making a Node-RED custom node? https://github.com/node-red/node-red-nodes
+- Node-RED Automation http://bitluni.net/how-to-node-red/
