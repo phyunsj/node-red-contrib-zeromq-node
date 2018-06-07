@@ -41,7 +41,7 @@ var types = exports.types = {
 };
 ```
 
-**ZMQ_PUB** & **ZMQ_SUB** are implemented as Node-RED Custom Node.
+**ZMQ_PUB** & **ZMQ_SUB** are implemented as Node-RED Custom Node. 
 
 
 ![alt text-1](https://github.com/phyunsj/node-red-custom-node/blob/master/node-red-zeromq.png "Node-RED ZeroMQ Node")
@@ -59,7 +59,7 @@ On Windows, using npm 5.x or greater:
 
 > `C:\Users\my_name\.node_red\npm install C:\Users\my_name\my_project\node-red-zeromq`
 
-### node-red-node-mq/package.json
+### node-red-contrib-mq/package.json
 
 ```
 {
@@ -75,7 +75,7 @@ On Windows, using npm 5.x or greater:
 }
 ```
 
-### node-red-node-mq/mq.html
+### node-red-contrib-mq/mq.html
 
 node-input-`<property-name>`
 
@@ -117,7 +117,7 @@ node-input-`<property-name>`
 </script>
 ```
 
-### node-red-node-mq/mq.js
+### node-red-contrib-mq/mq.js
 
 ```
 module.exports = function(RED) {
